@@ -36,7 +36,7 @@ class ATM {
     private ArrayList<Transaction> transactions;
 
     public ATM() {
-        balance = 10000; // Set initial balance
+        balance = 10000; 
         transactions = new ArrayList<>();
     }
 
@@ -56,7 +56,7 @@ class ATM {
             menu();
         } else {
             System.out.println("\n-------Incorrect PIN. Please try again.-------\n");
-            check_pin(); // Recursive call to prompt for PIN again
+            check_pin(); 
         }
     }//end
 
